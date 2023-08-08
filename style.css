@@ -42,7 +42,7 @@ h1{
 
 @media(max-width:1000px){
     #newtask{
-        width: 250px;
+        width: 350px;
         padding-bottom: 20px;
         margin: 5% auto 0% auto;
     }
