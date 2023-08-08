@@ -7,14 +7,12 @@ body{
     text-align: center;
     width: 40%;
     padding: 1px 0px 45px 0px;
-    border-radius: 25%;
     margin: 5% auto 0% auto;
 }
 
 input{
     background-color: #C2DEDC;
     border: 1.6px solid #374259;
-    border-radius: 10%;
     height: 20px;
     width: 50%;
     font-family: 'Amatic SC', cursive;
@@ -46,7 +44,6 @@ h1{
     #newtask{
         width: 250px;
         padding-bottom: 20px;
-        border-radius: 25%;
         margin: 5% auto 0% auto;
     }
     
@@ -66,4 +63,3 @@ h1{
     h1{
         font-size: 20px;
     }
-}
