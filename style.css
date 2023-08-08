@@ -6,8 +6,6 @@ body{
     background-color: #F2D8D8;
     text-align: center;
     width: 40%;
-    max-width: 500px;
-    min-width: 450px;
     padding: 1px 0px 45px 0px;
     border-radius: 25%;
     margin: 5% auto 0% auto;
@@ -44,8 +42,9 @@ h1{
     justify-content: center;
 }
 
-@media(max-width:600px){
+@media(max-width:1000px){
     #newtask{
+        width: 250px;
         padding-bottom: 20px;
         border-radius: 25%;
         margin: 5% auto 0% auto;
