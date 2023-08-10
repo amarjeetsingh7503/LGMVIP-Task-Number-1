@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const taskItem = document.createElement("div");
       taskItem.className = "taskItem";
       taskItem.innerHTML = `
-        <p id="taskText">${taskText}</p>
         <input id="checkbox" type="checkbox">
+        <p class="strikethrough" id="taskText">${taskText}</p>
         <button class="removeButton">
-          <img id="delete" src="./img/delete.png" width="25px" alt="delete">
+        <img id="delete" src="./img/delete.png" width="25px" alt="delete">
         </button> 
         `;
       tasksList.appendChild(taskItem);
@@ -35,5 +35,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   });
-  
-  
