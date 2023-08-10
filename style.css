@@ -65,8 +65,9 @@ h1{
 }
 
 #checkbox{
-    width: 15px;
+    width: 10px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 #taskText{
@@ -88,7 +89,12 @@ h1{
 .taskItem:hover {
     background-color: #f0f0f0;
 }
-  
+
+input[id=checkbox]:checked~p.strikethrough {
+    text-decoration: line-through;
+    color: black;
+  }
+
 @media(max-width:850px){
     #newtask{
         width: 350px;
