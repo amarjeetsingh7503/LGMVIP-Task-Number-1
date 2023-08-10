@@ -23,7 +23,7 @@ input{
     border: 1.6px solid #374259;
     height: 20px;
     width: 50%;
-    font-family: 'Amatic SC', cursive;
+    font-family:'Acme', sans-serif;
 }
 
 input:focus{
@@ -35,7 +35,7 @@ input:focus{
 #push{
     background-color: #E97777;
     border: 1.6px solid #8B7E74;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Acme', sans-serif;
 }
 
 h1{
@@ -73,7 +73,7 @@ h1{
     display: block;
     margin: 0;
     flex: 1;
-    font-family: 'Comfortaa', cursive;;
+    font-family: 'Acme', sans-serif;
 }
 
 .taskItem {
@@ -89,7 +89,7 @@ h1{
     background-color: #f0f0f0;
 }
   
-@media(max-width:1000px){
+@media(max-width:850px){
     #newtask{
         width: 350px;
         padding-bottom: 20px;
@@ -99,14 +99,14 @@ h1{
     input{
         height: 15px;
         font-size: 10px;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Acme', sans-serif;
     }
     
     #push{
         height: 18px;
         border: 1px solid #8B7E74;
         font-size: 10px;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Acme', sans-serif;
     }      
     
     h1{
@@ -128,6 +128,7 @@ h1{
     #taskText{
         font-size: 12px;
         font-weight: 540;
+        font-family: 'Acme', sans-serif;
     }
     
     .taskItem{
