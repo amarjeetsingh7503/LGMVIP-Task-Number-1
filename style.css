@@ -5,9 +5,17 @@ body{
 #newtask{
     background-color: #F2D8D8;
     text-align: center;
-    width: 40%;
+    width: 50%;
     padding: 1px 0px 45px 0px;
     margin: 5% auto 0% auto;
+}
+
+#firstimg{
+    float: left;
+}
+
+#secondimg{
+    float: right;
 }
 
 input{
@@ -40,6 +48,47 @@ h1{
     justify-content: center;
 }
 
+#tasks{
+    background-color: #FFF3DA;
+    border: 2px solid #FBA1B7;
+    width: 70%;
+    margin: 5% auto 0% auto;
+
+}
+
+.removeButton{
+   outline: none;
+   float: right;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
+#checkbox{
+    width: 15px;
+    margin-right: 10px;
+}
+
+#taskText{
+    display: block;
+    margin: 0;
+    flex: 1;
+    font-family: 'Comfortaa', cursive;;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+.taskItem:hover {
+    background-color: #f0f0f0;
+}
+  
 @media(max-width:1000px){
     #newtask{
         width: 350px;
@@ -63,3 +112,26 @@ h1{
     h1{
         font-size: 20px;
     }
+
+    #firstimg{
+       width: 40px; 
+    }
+    
+    #secondimg{
+        width: 40px;
+    }
+
+    #tasks{
+        width: 350px;
+    }
+
+    #taskText{
+        font-size: 12px;
+        font-weight: 540;
+    }
+    
+    .taskItem{
+        padding: 0;
+        padding-left: 10px;
+    }
+}
